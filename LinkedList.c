@@ -1,4 +1,4 @@
-// linked list
+// linked list with basic functions
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -188,6 +188,7 @@ int main()
     printf("\nenter element to search: \n");
     scanf("%d",&elem);
     search(l,elem);
+    
 
     reverse(l);
     printf("\nreversed list: \n");
